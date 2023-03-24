@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <script src="script.js" defer></script>
+    <title>Samarth | webpage</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-nav">
+        <div class="nav-logo">
+          <h1>Samarth</h1>
+        </div>
+
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        ></button>
+
+        <ul id="primary-nav" class="primary-nav" data-visible="false">
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#blog">Blogs</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-text-container">
+            <p>Hey there,</p>
+            <h2>I am Samath HM</h2>
+            <p>a Frontend developer.</p>
+          </div>
+          <a href="https://www.linkedin.com/in/samarth-h-m-a950a4210" class="hero-button">Let's connect!</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-highlight">ABOUT</div>
+        <div class="about-container">
+          <div class="about-card">
+            <section class="about-content">
+              <h2> About</h2>
+              <p>
+                I am a student of information Science and Engineering at MCE.
+              </p>
+              <p>I am a front-end developer .</p>
+              <p>I love designing and developing websits, riding around and playing shuttle.</p>
+            </section>
+
+            <section class="about-content tech-stack-section">
+              <h3>My current tech stack</h3>
+              <div class="tech-stack-grid">
+                <div class="tech-stack">
+                  <img src="./assets/icons/html5.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/css.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/javascript.svg" alt="html5-icon" />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-highlight">PROJECTS</div>
+        <div class="projects-container" align="center">
+          <div class="projects-card" align="center">
+            <div class="projects-content">
+              <h2>> Projects</h2>
+              <div class="project-container">
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/forkify-overview (1).png"
+                    alt="project-1"
+                  />
+                  <h3>Sample Project 1</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    food.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"/>
+                    </a>
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+              </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <div class="container">
+           <div class="row">
+              <div class="title text-center">
+                 <h1>Blogs I've Liked</h1>
+              </div>
+           </div>
+           <div class="row">
+              <div class="blog-content">
+                 <div class="blog-box">
+                    <div class="blog-img">
+                       <img src='./img/blogs/1.jpg' />
+                    </div>
+                    <div class="blog-text">
+                       <div class="blog-info">
+                          <span>May 3, 2020</span>
+                          <span>Version Control</span>
+                       </div>
+                       <h3>Why every developer uses Git.</h3>
+                       <p>Git allows us to have a “version” of a project which shows the changes that were made to the code over time, and allows us to backtrack if necessary and undo the changes.</p>
+                    </div>
+                 </div>
+                 <div class="blog-box">
+                    <div class="blog-img">
+                       <img src='./img/blogs/2.png' />
+                    </div>
+                    <div class="blog-text">
+                       <div class="blog-info">
+                          <span>May 1, 2020</span>
+                          <span>Web Development</span>
+                       </div>
+                       <h3>JavaScript Promises</h3>
+                       <p>Before we use promises, our code was full of confusing callback tricks and asynchronous. Switching to promises made our code easier to read, understand, and test.</p>
+                    </div>
+                 </div>
+                 <div class="blog-box">
+                    <div class="blog-img">
+                       <img src='./img/blogs/3.jpg' />
+                    </div>
+                    <div class="blog-text">
+                       <div class="blog-info">
+                          <span>April 27, 2020</span>
+                          <span>Programming</span>
+                       </div>
+                       <h3>Why we don't need a degree to be a Developer.</h3>
+                       <p>That's right. You don't need a degree to be a developer. Whilst university is definitely the right path for some people, it is not right for everyone.</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <section class="contact" id="contact">
+        <div class="container">
+           <div class="row">
+              <div class="title text-center">
+                 <h1>Get In Touch</h1>
+              </div>
+           </div>
+           <div class="row">
+              <div class="contact-form">
+                 <div class="row">
+                    <div class="contact-text">
+                       <h2>Drop Me message</h2>
+                       <p>My inbox is always open I'll try my best to get back to you!</p>
+                    </div>
+                 </div>
+                 <div class="row space-between">
+                    <div class="col-6">
+                       <input type="text" class="form-control" name="" placeholder="Name" />
+                    </div>
+                    <div class="col-6">
+                       <input type="text" class="form-control" name="" placeholder="Email" />
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-12">
+                       <textarea class="form-control" placeholder="Your Message"></textarea>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="button btn">
+                       <a href="#">Get In Touch</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+      <section id="contact">
+        <h2 class="section-highlight">Contacts</h2>
+        <div class="contact-container">
+          <div class="contact-card">
+            <h2> Contacts</h2>
+            <p>You can get in touch with me through these following links</p>
+            <div class="social-parent">
+            <a href="https://instagram.com/samarth_neethu?igshid=ZDdkNTZiNTM=">
+              <img src="./img/instagram.svg"> 
+            </a>
+            <a href="https://github.com/Samarth916">
+              <img src="./img/github.svg" 
+            </a>
+            <a href="https://www.linkedin.com/in/samarth-h-m-a950a4210">
+              <img src="./img/linkedin.svg"> 
+            </a>
+          </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+         <div class="row">
+            <div class="footer-logo">Samarth H M</div>
+         </div>
+      </div>
+   </footer>
+   <section class="copyright">
+    <div class="container">
+       <p>© <span id="year"></span> | Designed and Developed By Samarth H M | All rights reserved.</p>
+    </div>
+  </body>
+</html>
